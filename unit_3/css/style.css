@@ -1,0 +1,51 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+header {
+	background-color: #6d6d6d;
+	text-align: center;
+	padding: 20px;
+}
+
+section {
+	text-align: center;
+  	background: url("images/webheader.jpg");
+ 	background-size: cover;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+a {
+	color: #5d5d5d;
+	text-decoration: none;
+}
+
+nav a {
+	color: #5d5d5d;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #5d5d5d;
+	padding: 20px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 20px 0;
+}
