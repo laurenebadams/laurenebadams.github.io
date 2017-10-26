@@ -1,0 +1,59 @@
+body {
+  height: 100%;
+}
+
+.topnav {
+
+}
+
+.hero-image {
+  background-image: url("https://i.imgur.com/XyLh3FS.jpg");
+  height: 60%;
+  margin-top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+  position: center;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  padding-top:30px;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
