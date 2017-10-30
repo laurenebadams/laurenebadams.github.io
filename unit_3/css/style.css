@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  position: center;
+  text-align: center;
   font-family: "Sacramento", cursive;
   text-transform: lowercase;
   font-size: 90px;
