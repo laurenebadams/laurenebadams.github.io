@@ -108,7 +108,11 @@ p {
     margin-right: 700px;
     margin-left: 100px;
 }
-
-#aboutimage {
-
+#vl {
+    border-left: 1px solid green;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 0px;
 }
