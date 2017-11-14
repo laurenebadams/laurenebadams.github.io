@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Rozha+One|EB+Garamond|Spectral+SC);
+
+body {
+    background-color: #EEF2EA;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.2em;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover {
+    color: #a6927e;
+}
+
+#hero-text {
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    top: 42vh;
+}
+
+#hero {
+    background-image: url("https://i.imgur.com/xGFb1s5.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30 20 45 20;
+    height: 60vh;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#inspired {
+    text-align: center;
+    color: #494949;
+    padding-top: -1em;
+    padding-left: 9em;
+    padding-right: 9em;
+}
+
+span {
+    font-size: 1.8em;
+
+}
+
+.column {
+    float: left;
+    width: 28%;
+    height: 30%;
+    padding: 22px;
+    margin-left: 13px;
+
+}
+
+.column img {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #494949;
+}
+
+a:hover {
+    color: #a6927e;
+}
+
+#wrapper{
+
+}
+
+div {
+
+}
+
+footer {
+    border-top: 1px solid #a6927e;
+    color: #a6927e;
+
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

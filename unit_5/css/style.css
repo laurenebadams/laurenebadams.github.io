@@ -26,7 +26,8 @@ header {
 }
 
 .b1, .b2, .b3 {
-	display: inline-block;
+	width: 320px;
+	float: left;
 	position: center;
 	margin: 10px;
 	float: center;
