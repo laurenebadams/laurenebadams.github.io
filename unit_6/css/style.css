@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rozha+One|EB+Garamond|Spectral+SC);
 
 body {
-    background-color: #EEF2EA;
+    background-color: #E6E9E5;
     font-family: 'Monsterrat', sans-serif;
 }
 
@@ -99,6 +99,7 @@ span {
     height: 30%;
     padding: 22px;
     margin-left: 13px;
+    text-height: 30px;
 
 }
 
