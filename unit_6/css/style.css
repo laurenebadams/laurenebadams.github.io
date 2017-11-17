@@ -1,34 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400);
 @import url(https://fonts.googleapis.com/css?family=Rozha+One|EB+Garamond|Spectral+SC);
 
+* { margin:0; padding:0; box-sizing: border-box; }
+
 body {
-    background-color: #E6E9E5;
+    background-color: #FFFFFF;
     font-family: 'Monsterrat', sans-serif;
 }
 
-h1, h2, h3 {
-    text-transform: uppercase;
-    text-align: center;   
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10vw;
-    font-weight: 200;
-    letter-spacing: 8px;
-}
-
 h2 {
+    text-align: center;
+    text-transform: uppercase;
     font-size: 2.5em;
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 2em;
 
 }
 
 h3 {
-    font-size: 1.5em;
+    text-align: center; 
+    text-transform: uppercase;  
+    font-size: 2em;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
+}
+
+h4 {
+    text-align: center;  
+    font-size: 1.8em;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width: 900px;
+    margin: 0 auto;
 
 }
 
@@ -36,6 +45,7 @@ p {
     font-size: 1.1em;
     font-family: 'EB Garamond', serif;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 nav {
@@ -49,28 +59,37 @@ nav a {
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     color: #494949;
+    margin: 15px;
+    margin-right: 60px;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 a:hover {
     color: #a6927e;
+    text-decoration: underline;
 }
 
-#hero-text {
+h1, #hero-text {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     text-align: center;
+    font-size: 10vw;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin: 0 auto;
     position: relative;
     color: #FFFFFF;
-    top: 40vh;
+    top: 50vh;
 }
 
-#hero {
+header#hero {
     background-image: url("https://i.imgur.com/xGFb1s5.jpg");
     background-position: center;
-    background-size: cover;
-    margin: 30 20 45 20;
-    height: 60vh;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 80vh;
 }
 
 
@@ -80,44 +99,61 @@ img {
     width: 100%;
 }
 
-#inspired {
-    text-align: center;
-    color: #494949;
-    padding-top: -1em;
-    padding-left: 9em;
-    padding-right: 9em;
+.wrapper {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-span {
-    font-size: 1.8em;
 
+img {
+    float: right;
+    height: 300px;
+    width: 300px;
+    padding: 2px;
 }
 
-.column {
+.row1{
     float: left;
-    width: 28%;
-    height: 30%;
+    font-size: 1.5em;
+    padding-top: 14px;
+    padding-right: 10px;
+}
+
+p.rowtext {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+/*
+.column2, #row2 {    
+    font-size: 1.3em;
+    float: left;
+    width: 40%;
     padding: 22px;
-    margin-left: 13px;
-    text-height: 30px;
-
 }
 
-.column img {
+.column3, #row3 {
+    font-size: 1.3em;
     float: left;
-}
+    width: 40%;
+    padding: 22px;
+}*/
+
 
 a {
-    text-decoration: none;
+    font-weight: 200;
+    font-size: 1em;
+    font-family: 'Monsterrat', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
     color: #494949;
 }
 
 a:hover {
     color: #a6927e;
-}
-
-#wrapper{
-
 }
 
 div {
