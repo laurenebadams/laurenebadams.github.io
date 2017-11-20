@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Rozha+One|EB+Garamond|Spectral+SC);
+
+* { margin:0; padding:0; box-sizing: border-box; }
+
+body {
+    background-color: #f4f4f6;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11vw;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px;
+
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.2em;
+    float: right;
+    margin: 13px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: #a6927e;
+}
+
+#hero-text {
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    top: 45vh;
+}
+
+#hero {
+    background-image: url("https://i.imgur.com/xGFb1s5.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30 20 45 20;
+    height: 70vh;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#inspired {
+    text-align: center;
+    color: #494949;
+    font-size: 1.5em;
+    padding: 1px 250px 60px 250px;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    padding: 90px;
+    border-top: 1px solid #a6927e;
+    border-color: #a6927e;
+}
+
+.about {
+    padding: 90px;
+    border-top: 1px solid #a6927e;
+    border-color: #a6927e;
+}
+
+.blog {
+    padding: 90px;
+    border-top: 1px solid #a6927e;
+    border-color: #a6927e;
+}
+
+
+p {
+    font-size: 1.5em;
+    margin: 2em;
+}
+
+img {
+    height:100%;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    font-weight: 200;
+    font-size: 1em;
+    font-family: 'Monsterrat', sans-serif;
+    text-transform: none;
+    font-style: italic;
+    text-decoration: underline;
+    color: #494949;
+}
+
+a:hover {
+     color: #a6927e;
+ }
+
+#wrapper{
+
+}
+
+div {
+
+}
+
+footer {
+    border-top: 1px solid #a6927e;
+    color: #a6927e;
+
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
