@@ -164,6 +164,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+	body {
+		font-size: 13px;
+	}
+
 	ul {
 		width: auto;
 		text-align: center;
