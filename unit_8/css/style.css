@@ -25,14 +25,12 @@ h2 {
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
     padding: 5%;
-
 }
 
 h3 {
     font-size: 1.8em;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 p {
@@ -152,7 +150,6 @@ footer {
     border-top: 1px solid #a6927e;
     color: #a6927e;
     padding: 2%;
-
 }
 
 .clearfix:after {
@@ -165,6 +162,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
 	ul {
 		width: auto;
 		text-align: center;
