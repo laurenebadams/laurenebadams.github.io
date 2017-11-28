@@ -41,30 +41,29 @@ p {
     text-align: left;
 }
 
-nav {
-    font-size: 1.2em;
-    float: right;
-    margin: .3em;
+ul {
+	list-style-type: none;
+    display: inline;
 }
 
-nav a {
+li {
+	padding: 1%;
+	float: right;
+}
+
+li a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-    color: #494949;
-    padding-left: 1em;
-    padding-right: 1em;
+    font-size: 1.2em;
+    color: #484848;
 }
 
 a:hover {
-    color: #a6927e;
     text-decoration: underline;
 }
 
 #hero-text {
     text-align: center;
-    position: absolute;
+    position: relative;
     color: #FFFFFF;
     top: 35vh;
 }
@@ -142,9 +141,6 @@ a:hover {
      color: #a6927e;
  }
 
-#wrapper{
-
-}
 
 div {
 
@@ -167,3 +163,44 @@ footer {
   clear: both;
   height: 0;
 }
+
+@media only screen and (max-width: 768px) {
+	ul {
+		width: auto;
+		text-align: center;
+	}
+
+	li {
+		float: none;
+		border-bottom: 1px solid #a6927e;
+	}
+	.wrapper {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 20vw;
+	}
+
+	#hero {
+		margin: 0;
+	}
+
+	#inspired {
+		padding: 0;
+	}
+
+	.portfolio {
+		padding: 0;
+		border-width: 100%;
+	}
+
+	.about {
+		padding: 0;
+	}
+
+	.blog {
+		padding: 0;
+	}
+}
+
