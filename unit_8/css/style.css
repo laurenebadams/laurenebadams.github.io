@@ -175,7 +175,7 @@ footer {
 
 	li {
 		float: none;
-		border-bottom: 1px solid #a6927e;
+		padding: 1.2em;
 	}
 	.wrapper {
 		width: 100%;
@@ -183,6 +183,7 @@ footer {
 
 	h1 {
 		font-size: 15vw;
+		font-weight: 300;
 	}
 
 	#hero {
@@ -193,9 +194,25 @@ footer {
 		padding: 0;
 	}
 
+	h3 {
+		padding: .5em;
+	}
+
+	p {
+		margin: 0;
+		padding: 1em;
+	}
+
+	a {
+		margin: 1em;
+	}
+
+	img {
+		padding-bottom: 2em;
+	}
+
 	.portfolio {
 		padding: 0;
-		border-width: 100%;
 	}
 
 	.about {
@@ -204,6 +221,10 @@ footer {
 
 	.blog {
 		padding: 0;
+	}
+
+	footer {
+		padding: 2em;
 	}
 }
 
