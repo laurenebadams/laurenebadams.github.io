@@ -14,13 +14,6 @@ h1, h2, h3 {
     text-align: center;   
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10vw;
-    font-weight: 200;
-    letter-spacing: .1em;
-}
-
 h2 {
     font-size: 2.5em;
     font-weight: 100;
@@ -40,17 +33,13 @@ p {
     text-align: left;
 }
 
-ul {
-	list-style-type: none;
-    display: inline;
+nav {
+	text-align: right;
+	background-color: #f4f4f6;
+	padding: 1em;
 }
 
-li {
-	padding: 1%;
-	float: right;
-}
-
-li a {
+nav a {
     text-decoration: none;
     font-size: 1.2em;
     color: #484848;
@@ -60,19 +49,23 @@ a:hover {
     text-decoration: underline;
 }
 
-#hero-text {
-    text-align: center;
-    position: relative;
-    color: #FFFFFF;
-    top: 35vh;
-}
 
-#hero {
+header#hero {
     background-image: url("https://i.imgur.com/xGFb1s5.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30 20 45 20;
     height: 70vh;
+}
+
+h1#hero-text {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    font-weight: 200;
+    letter-spacing: .2em;
+    width: 100%;
+    position: absolute;
+    color: #FFFFFF;
+    top: 35vh;
 }
 
 
@@ -82,7 +75,7 @@ img {
     width: 100%;
 }
 
-#inspired {
+section#inspired {
     text-align: center;
     color: #494949;
     font-size: 1.5em;
