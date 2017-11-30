@@ -25,7 +25,7 @@ h3 {
     font-size: 1.8em;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-        border-top: 1px solid #a6927e;
+    border-top: 1px solid #a6927e;
     border-color: #a6927e;
 }
 
@@ -44,7 +44,7 @@ nav {
 nav a {
 	display: inline-block;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #484848;
 }
 
@@ -63,9 +63,8 @@ h1#hero-text {
 	font-family: 'Montserrat', sans-serif;
     font-size: 10vw;
     font-weight: 200;
-    letter-spacing: .2em;
     width: 100%;
-    position: absolute;
+    position: relative;
     color: #FFFFFF;
     top: 35vh;
 }
@@ -112,7 +111,7 @@ a {
     font-style: italic;
     text-decoration: underline;
     color: #494949;
-    margin: 2em;
+    margin: 1em;
 }
 
 a:hover {
@@ -155,13 +154,14 @@ footer {
 		padding: 1.2em;
 	}
 
-	h1 {
+	h1#herotext {
 		font-size: 15vw;
 		font-weight: 300;
 	}
 
 	header#hero {
 		margin: 0;
+		height: 60vh;
 	}
 
 	section#inspired {
