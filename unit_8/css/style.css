@@ -25,6 +25,8 @@ h3 {
     font-size: 1.8em;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+        border-top: 1px solid #a6927e;
+    border-color: #a6927e;
 }
 
 p {
@@ -34,12 +36,13 @@ p {
 }
 
 nav {
-	text-align: right;
+	float: right;
 	background-color: #f4f4f6;
-	padding: 1em;
+	width: 100%;
 }
 
 nav a {
+	display: inline-block;
     text-decoration: none;
     font-size: 1.2em;
     color: #484848;
@@ -77,8 +80,8 @@ section#inspired {
     text-align: center;
     color: #494949;
     font-size: 1.5em;
-    padding: .1% 18% 6% 18%;
-}
+    clear: both;
+    }
 
 .wrapper {
     width: 70%;
@@ -86,22 +89,8 @@ section#inspired {
     margin: 0 auto;
 }
 
-.portfolio {
+.main {
     padding: 5em;
-    border-top: 1px solid #a6927e;
-    border-color: #a6927e;
-}
-
-.about {
-    padding: 5em;
-    border-top: 1px solid #a6927e;
-    border-color: #a6927e;
-}
-
-.blog {
-    padding: 5em;
-    border-top: 1px solid #a6927e;
-    border-color: #a6927e;
 }
 
 p {
@@ -150,20 +139,20 @@ footer {
 @media only screen and (max-width: 768px) {
 
 	body {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
-	ul {
-		width: auto;
-		text-align: center;
-	}
-
-	li {
-		float: none;
-		padding: 1.2em;
-	}
 	.wrapper {
 		width: 100%;
+	}
+
+	nav {
+		float: none;
+		display: block;
+	}
+
+	nav a {
+		padding: 1.2em;
 	}
 
 	h1 {
@@ -171,12 +160,16 @@ footer {
 		font-weight: 300;
 	}
 
-	#hero {
+	header#hero {
 		margin: 0;
 	}
 
-	#inspired {
+	section#inspired {
 		padding: 0;
+	}
+
+	h2 {
+		font-size: 1.5em;
 	}
 
 	h3 {
@@ -196,15 +189,7 @@ footer {
 		padding-bottom: 2em;
 	}
 
-	.portfolio {
-		padding: 0;
-	}
-
-	.about {
-		padding: 0;
-	}
-
-	.blog {
+	.main {
 		padding: 0;
 	}
 
