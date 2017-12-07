@@ -157,12 +157,12 @@ footer {
 	h1#hero-text {
 		font-size: 11vw;
 		font-weight: 200;
-		top: 0;
+		top: 45vh;
 	}
 
 	header#hero {
 		margin: 0;
-		height: 60vh;
+		height: 70vh;
 	}
 
 	section#inspired {
