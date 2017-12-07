@@ -206,7 +206,18 @@ footer {
 }
 
 @media only screen and (max-width: 425px) {
- 
+
+	h1#herotext {
+		font-size: 16vw;
+		font-weight: 300;
+		top: 70vh;
+	}
+
+	header#hero {
+		margin: 0;
+		height: 40vh;
+	}
+
  	.wrapper {
  		width: 100%;
  		max-width: 100%;
