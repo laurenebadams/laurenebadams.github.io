@@ -205,3 +205,15 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 425px) {
+ 
+ 	.wrapper {
+ 		display: none;
+ 	}
+
+ 	nav {
+ 		display: none;
+ 	}
+
+}
+
