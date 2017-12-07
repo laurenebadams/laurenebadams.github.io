@@ -149,7 +149,7 @@ footer {
 
 	nav a {
 		padding: 1em;
-		text-align: center;
+		display: inline-block;
 		text-decoration: underline;
 	}
 
