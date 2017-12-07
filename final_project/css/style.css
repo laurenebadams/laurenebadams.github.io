@@ -208,7 +208,7 @@ footer {
 @media only screen and (max-width: 425px) {
 
 	h1#herotext {
-		font-size: 25vw;
+		font-size: 20vw;
 		font-weight: 300;
 		top: 50vh;
 	}
