@@ -216,5 +216,14 @@ footer {
  		display: none;
  	}
 
+ 	nav a {
+ 		display: none;
+ 	}
+
+ 	p{
+ 		margin: 0;
+ 		font-size: 1em;
+ 	}
+
 }
 
