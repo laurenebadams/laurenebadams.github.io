@@ -157,7 +157,7 @@ footer {
 	h1#hero-text {
 		font-size: 16vw;
 		font-weight: 300;
-		position: none;
+		top: 0;
 	}
 
 	header#hero {
