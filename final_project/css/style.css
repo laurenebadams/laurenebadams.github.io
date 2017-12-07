@@ -158,7 +158,7 @@ footer {
 	h1#hero-text {
 		font-size: 16vw;
 		font-weight: 300;
-		top: 40vh;
+		top: 70vh;
 	}
 
 	header#hero {
@@ -208,9 +208,7 @@ footer {
 @media only screen and (max-width: 425px) {
 
 	h1#hero-text {
-		font-size: 3em;
-		font-weight: 200;
-		top: 50vh;
+		margin-top: -4em;
 	}
 
 	header#hero {
