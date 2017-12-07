@@ -148,6 +148,7 @@ footer {
 	}
 
 	nav a {
+		float: none;
 		padding: 1em;
 		text-decoration: underline;
 	}
