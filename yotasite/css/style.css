@@ -132,12 +132,16 @@ section#meetbetty h2 {
 }
 
 /*section#meetbetty img {
+=======
+section#meetbetty img {
+>>>>>>> 81058e29a7e7c7de636730de585cf4bc3d9070ef
 	width: 33%;
 	max-width: 33%;
 	margin: 0 auto;
 	display: inline-block;
 	border: 1px solid #fff;
 	border-radius: .5em;
+<<<<<<< HEAD
 }*/
 
 header#headerlogo h3{
